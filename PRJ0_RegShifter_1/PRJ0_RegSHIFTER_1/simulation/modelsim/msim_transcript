@@ -1,0 +1,90 @@
+# do BB_SYSTEM_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying /opt/intelFPGA_lite/18.0/modelsim_ase/linuxaloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+/home/fsegura/FESQ/Dropbox/0FESQ_WORKTODAY/0FESQ_ACADEMICS/0FESQ_WORK/DE0NANO/0SEQUENTIALBLOCKS/PRJ0_RegSHIFTER_1/rtl {/home/fsegura/FESQ/Dropbox/0FESQ_WORKTODAY/0FESQ_ACADEMICS/0FESQ_WORK/DE0NANO/0SEQUENTIALBLOCKS/PRJ0_RegSHIFTER_1/rtl/SC_DEBOUNCE1.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:34:23 on Feb 26,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+/home/fsegura/FESQ/Dropbox/0FESQ_WORKTODAY/0FESQ_ACADEMICS/0FESQ_WORK/DE0NANO/0SEQUENTIALBLOCKS/PRJ0_RegSHIFTER_1/rtl" /home/fsegura/FESQ/Dropbox/0FESQ_WORKTODAY/0FESQ_ACADEMICS/0FESQ_WORK/DE0NANO/0SEQUENTIALBLOCKS/PRJ0_RegSHIFTER_1/rtl/SC_DEBOUNCE1.v 
+# -- Compiling module SC_DEBOUNCE1
+# 
+# Top level modules:
+# 	SC_DEBOUNCE1
+# End time: 13:34:23 on Feb 26,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+/home/fsegura/FESQ/Dropbox/0FESQ_WORKTODAY/0FESQ_ACADEMICS/0FESQ_WORK/DE0NANO/0SEQUENTIALBLOCKS/PRJ0_RegSHIFTER_1/rtl {/home/fsegura/FESQ/Dropbox/0FESQ_WORKTODAY/0FESQ_ACADEMICS/0FESQ_WORK/DE0NANO/0SEQUENTIALBLOCKS/PRJ0_RegSHIFTER_1/rtl/SC_RegSHIFTER.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:34:23 on Feb 26,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+/home/fsegura/FESQ/Dropbox/0FESQ_WORKTODAY/0FESQ_ACADEMICS/0FESQ_WORK/DE0NANO/0SEQUENTIALBLOCKS/PRJ0_RegSHIFTER_1/rtl" /home/fsegura/FESQ/Dropbox/0FESQ_WORKTODAY/0FESQ_ACADEMICS/0FESQ_WORK/DE0NANO/0SEQUENTIALBLOCKS/PRJ0_RegSHIFTER_1/rtl/SC_RegSHIFTER.v 
+# -- Compiling module SC_RegSHIFTER
+# 
+# Top level modules:
+# 	SC_RegSHIFTER
+# End time: 13:34:23 on Feb 26,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+/home/fsegura/FESQ/Dropbox/0FESQ_WORKTODAY/0FESQ_ACADEMICS/0FESQ_WORK/DE0NANO/0SEQUENTIALBLOCKS/PRJ0_RegSHIFTER_1/rtl {/home/fsegura/FESQ/Dropbox/0FESQ_WORKTODAY/0FESQ_ACADEMICS/0FESQ_WORK/DE0NANO/0SEQUENTIALBLOCKS/PRJ0_RegSHIFTER_1/rtl/SC_STATEMACHINE.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:34:23 on Feb 26,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+/home/fsegura/FESQ/Dropbox/0FESQ_WORKTODAY/0FESQ_ACADEMICS/0FESQ_WORK/DE0NANO/0SEQUENTIALBLOCKS/PRJ0_RegSHIFTER_1/rtl" /home/fsegura/FESQ/Dropbox/0FESQ_WORKTODAY/0FESQ_ACADEMICS/0FESQ_WORK/DE0NANO/0SEQUENTIALBLOCKS/PRJ0_RegSHIFTER_1/rtl/SC_STATEMACHINE.v 
+# -- Compiling module SC_STATEMACHINE
+# 
+# Top level modules:
+# 	SC_STATEMACHINE
+# End time: 13:34:23 on Feb 26,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+/home/fsegura/FESQ/Dropbox/0FESQ_WORKTODAY/0FESQ_ACADEMICS/0FESQ_WORK/DE0NANO/0SEQUENTIALBLOCKS/PRJ0_RegSHIFTER_1 {/home/fsegura/FESQ/Dropbox/0FESQ_WORKTODAY/0FESQ_ACADEMICS/0FESQ_WORK/DE0NANO/0SEQUENTIALBLOCKS/PRJ0_RegSHIFTER_1/BB_SYSTEM.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:34:23 on Feb 26,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+/home/fsegura/FESQ/Dropbox/0FESQ_WORKTODAY/0FESQ_ACADEMICS/0FESQ_WORK/DE0NANO/0SEQUENTIALBLOCKS/PRJ0_RegSHIFTER_1" /home/fsegura/FESQ/Dropbox/0FESQ_WORKTODAY/0FESQ_ACADEMICS/0FESQ_WORK/DE0NANO/0SEQUENTIALBLOCKS/PRJ0_RegSHIFTER_1/BB_SYSTEM.v 
+# -- Compiling module BB_SYSTEM
+# 
+# Top level modules:
+# 	BB_SYSTEM
+# End time: 13:34:23 on Feb 26,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+/home/fsegura/FESQ/Dropbox/0FESQ_WORKTODAY/0FESQ_ACADEMICS/0FESQ_WORK/DE0NANO/0SEQUENTIALBLOCKS/PRJ0_RegSHIFTER_1/simulation/modelsim {/home/fsegura/FESQ/Dropbox/0FESQ_WORKTODAY/0FESQ_ACADEMICS/0FESQ_WORK/DE0NANO/0SEQUENTIALBLOCKS/PRJ0_RegSHIFTER_1/simulation/modelsim/TB_SYSTEM.vt}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:34:23 on Feb 26,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+/home/fsegura/FESQ/Dropbox/0FESQ_WORKTODAY/0FESQ_ACADEMICS/0FESQ_WORK/DE0NANO/0SEQUENTIALBLOCKS/PRJ0_RegSHIFTER_1/simulation/modelsim" /home/fsegura/FESQ/Dropbox/0FESQ_WORKTODAY/0FESQ_ACADEMICS/0FESQ_WORK/DE0NANO/0SEQUENTIALBLOCKS/PRJ0_RegSHIFTER_1/simulation/modelsim/TB_SYSTEM.vt 
+# -- Compiling module TB_SYSTEM
+# 
+# Top level modules:
+# 	TB_SYSTEM
+# End time: 13:34:23 on Feb 26,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  TB_SYSTEM
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=""+acc"" TB_SYSTEM 
+# Start time: 13:34:23 on Feb 26,2019
+# Loading work.TB_SYSTEM
+# Loading work.BB_SYSTEM
+# Loading work.SC_DEBOUNCE1
+# Loading work.SC_STATEMACHINE
+# Loading work.SC_RegSHIFTER
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# Running testbench
+# 
+# stdin: <EOF>
+do TB_SYSTEM.do
+# Running testbench
+# 0 - Time: 170000000 TB_SYSTEM_clear_InLow:  1, TB_SYSTEM_load_InLow:  1, TB_SYSTEM_shiftselection_In:  1, TB_SYSTEM_data_InBUS:  1, TB_SYSTEM_data_OutBUS: 36 72
+# 1 - Time: 220000000 TB_SYSTEM_clear_InLow:  1, TB_SYSTEM_load_InLow:  1, TB_SYSTEM_shiftselection_In:  1, TB_SYSTEM_data_InBUS:  1, TB_SYSTEM_data_OutBUS: 129  2
+# 2 - Time: 270000000 TB_SYSTEM_clear_InLow:  1, TB_SYSTEM_load_InLow:  1, TB_SYSTEM_shiftselection_In:  1, TB_SYSTEM_data_InBUS:  1, TB_SYSTEM_data_OutBUS:  9 18
+# 3 - Time: 320000000 TB_SYSTEM_clear_InLow:  1, TB_SYSTEM_load_InLow:  1, TB_SYSTEM_shiftselection_In:  1, TB_SYSTEM_data_InBUS:  1, TB_SYSTEM_data_OutBUS: 99198
+# 4 - Time: 370000000 TB_SYSTEM_clear_InLow:  1, TB_SYSTEM_load_InLow:  1, TB_SYSTEM_shiftselection_In:  1, TB_SYSTEM_data_InBUS:  1, TB_SYSTEM_data_OutBUS: 13 26
+# End time: 13:39:09 on Feb 26,2019, Elapsed time: 0:04:46
+# Errors: 0, Warnings: 0
